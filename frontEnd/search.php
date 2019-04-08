@@ -13,13 +13,13 @@ session_start();
         
 
 <!-- The form -->
-<form class="example" action="searchCode.php" method='post'>
+<form class="example" action="../backEnd/searchCode.php" method='post'>
  Search by book name <input type="text" placeholder="Search.." name="bookname">
   <button type="submit"><i class="fa fa-search"></i></button>
 </form>
-       <li><a href="logOut.php"> Log out</a>
-             <li><a href="HOME.php"> HOME</a>
-                   <li><a href="return.php"> return</a>
+       <li><a href="../logOut.php"> Log out</a>
+       <li><a href="../frontEnd/HOME.php"> HOME</a>
+                   <li><a href="../return.php"> return</a>
                   
     </body>
 </html>

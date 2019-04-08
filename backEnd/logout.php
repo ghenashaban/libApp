@@ -22,6 +22,6 @@ session_start();
             echo "<h1>You have successfully logged out. <br> Please log in again or go to the Home Page!</h1>";
         }
         ?>
-        <a href="home.php">home page</a>
+        <a href="../frontEnd/home.php">home page</a>
     </body>
 </html>

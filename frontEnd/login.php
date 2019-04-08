@@ -25,7 +25,7 @@ session_start();
         
         echo "
       
-        <form action='loginCode.php' method='post'>
+        <form action='../backEnd/loginCode.php' method='post'>
             email <input type='text' name='email'>
             password <input type='password' name='password'>
             <button type='submit'name='submit'>login </button>

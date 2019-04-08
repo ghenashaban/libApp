@@ -9,7 +9,7 @@ include_once 'search.php';
     </head>
     <body>
         
-        <form action="returnCode.php" method='post'>
+        <form action="../backEnd/returnCode.php" method='post'>
 <!--             name of book <input type="text" name="bookname">
   location of book <input type="text" name="location">-->
             <select name="bookname">

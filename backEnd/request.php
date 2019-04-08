@@ -3,7 +3,7 @@
 
 
 include_once 'connecting2db.php';
-include_once 'search.php';
+include_once '../frontEnd/search.php';
 
 
 if(!empty($_POST)) {

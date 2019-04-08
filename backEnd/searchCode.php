@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <?php
 
-include_once 'search.php';
+include_once '../frontEnd/search.php';
 ?>
 <html>
     <head>
@@ -50,7 +50,7 @@ foreach ($data as $row) {
     $location=$row['areaname'];
       $images= $row['image'];
        
-   $image="<img src='$images' alt='harry potter' width=80px >";
+   $image="<img src='../$images' alt='harry potter' width=80px >";
 
  echo "<table>
   <tr>

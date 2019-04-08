@@ -92,6 +92,6 @@ catch(PDOException $e) {
     echo "Error: " . $e->getMessage();
 }
         ?>
-        <a href="home.php"> Home </a>
+        <a href="../frontEnd/home.php"> Home </a>
     </body>
 </html>

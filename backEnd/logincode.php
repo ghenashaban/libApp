@@ -14,7 +14,7 @@ if (count($data)==1){
 $_SESSION['email'] = $email;
 $_SESSION['password'] = $password;
 ECHO "WELCOME ". $email;
-header('location:home.php');
+header('location:../frontEnd/home.php');
 }else{
 
 echo "Invalid Login Details.";

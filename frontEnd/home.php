@@ -15,13 +15,13 @@
         if(!empty($_SESSION)){
             echo "Welcome $_SESSION[email]";
             echo "<br>";
-           echo"<a href='logout.php'>logout</a>";
+           echo"<a href='../backEnd/logout.php'>logout</a>";
            echo "<br>";
            echo"<a href='search.php'>search</a>";
            echo "<br>";
            echo "<a href='return.php'>return</a>";
            echo "<br>";
-           echo "<a href='history.php'>History</a>";
+           echo "<a href='../backEnd/history.php'>History</a>";
            echo "<br>";
            echo "<a href='updateinfoForm.php'>Update info</a>";
           
